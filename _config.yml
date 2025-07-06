@@ -23,6 +23,7 @@ minima:
       url: "https://github.com/raZer99"
   nav_pages:
     - projects.md
+    - about.md
 
 # Optional Sass setting to silence warnings
 sass:
