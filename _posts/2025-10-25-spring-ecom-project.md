@@ -7,8 +7,6 @@ categories: [Java, Spring Boot, React, Full Stack, Backend]
 
 🚀 **Spring E-Commerce Project** marks a major step in my Spring learning journey — evolving from understanding the **Spring Core** concepts to building a **full-stack web application** with **React** as the frontend and **Spring Boot** as the backend.
 
-This project follows the [Spring 6 and Spring Boot Tutorial for Beginners](https://www.youtube.com/playlist?list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF) by **Telusko**, covering everything up to (but not including) Spring Security.
-
 ---
 
 ### 🏗️ What I Built
