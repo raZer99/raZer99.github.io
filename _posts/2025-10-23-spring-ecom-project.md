@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring E-Commerce Project – My Journey Through Core Spring and React Integration"
-date: 2025-10-25
+date: 2025-10-23
 categories: [Java, Spring Boot, React, Full Stack, Backend]
 ---
 
