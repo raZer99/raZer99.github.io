@@ -9,21 +9,19 @@ layout: base
 
   {{ content }}
 
+  {%- assign all_posts = site.posts | sort: 'date' | reverse -%}
+  {%- assign pinned_posts = all_posts | where: 'pinned', true -%}
+  {%- assign normal_posts = all_posts | where_exp: "post", "post.pinned != true" -%}
 
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
+  {%- assign posts_to_render = pinned_posts | concat: normal_posts -%}
 
-
-  {%- if posts.size > 0 -%}
+  {%- if posts_to_render.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+      {%- for post in posts_to_render -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
