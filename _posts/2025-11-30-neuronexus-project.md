@@ -92,27 +92,7 @@ Stores:
 
 7. Final response returned to user
 
-+------------------+        +-------------------+
-|   Ticket Service | -----> |   Triage Service  |
-+------------------+        +-------------------+
-          |                          |
-          |                          v
-          |                 +-------------------+
-          |                 |    Orchestrator   |
-          |                 +-------------------+
-          |                          |
-          |         -----------------------------------------
-          |         |                 |               |     |
-          v         v                 v               v     v
-  +-------------+ +---------+   +-----------+   +-----------+
-  | Notification| |  JIRA   |   | Deployment|   |   Logger |
-  +-------------+ +---------+   +-----------+   +-----------+
-                          |
-                          v
-                 +------------------+
-                 |   PostgreSQL     |
-                 +------------------+
-
+---
 
 ### 🎓 What I Learned
 
@@ -123,7 +103,7 @@ Building NeuroNexus helped me understand how real microservices communicate, coo
 - Implementing **REST-based inter-service communication**
 - Writing **dynamic workflow engines** using templates
 - Using **PostgreSQL + Docker Compose** for persistent storage
-- Applying **rule-based AI logic** for ticket triage
+- Applying **rule-based AI logic** for ticket triage**
 - Structuring **large, scalable backend systems**
 - Managing orchestration across **multiple independent services**
 
