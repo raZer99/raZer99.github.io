@@ -4,6 +4,21 @@ title: Projects
 permalink: /projects/
 ---
 
+## 🤖 NeuroNexus – Workflow Orchestration Platform (Spring Boot Microservices)
+A production-style **workflow orchestration system** built with multiple Spring Boot microservices.  
+Automates ticket triage, notifications, JIRA creation, deployments, and workflow auditing — similar to real DevOps/SRE automation pipelines.
+
+- Distributed microservices communicating via REST  
+- Ticket ingestion + AI-style rule-based triage  
+- Central Orchestrator executing workflows (notify → jira → deploy → log → complete)  
+- PostgreSQL persistence for tickets and workflow audit logs  
+- Fully Dockerized microservice ecosystem  
+- Extensible architecture for Spring AI, Kafka, and Monitoring integration  
+
+🔗 [View GitHub Repo](https://github.com/raZer99/NeuroNexus)
+
+---
+
 ## 🔧 Spring Boot Bookstore API
 Built a production-grade REST API using Spring Boot, PostgreSQL, Docker, and AWS Lightsail.
 
