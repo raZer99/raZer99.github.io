@@ -71,7 +71,6 @@ Stores:
 
 ### 🔄 How NeuroNexus Works (End-to-End Flow)
 
-```text
 1. User submits a ticket → POST /tickets
 
 2. Ticket Service:
