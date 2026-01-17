@@ -4,6 +4,22 @@ title: Projects
 permalink: /projects/
 ---
 
+## 🔗 urlShorty – URL Shortening Service (Spring Boot + Redis + Docker + React)
+A full-stack **URL shortening service** built as a learning-focused backend system with frontend integration.  
+Designed for low-latency lookups using Redis and clean REST-based redirection.
+
+- Spring Boot backend with REST APIs
+- Redis atomic counters for unique ID generation
+- Base62 encoding for compact, URL-safe short keys
+- HTTP 302 redirects for browser-friendly navigation
+- Docker Compose setup for backend + Redis
+- Dark-themed React UI for real-time URL shortening
+
+🔗 Backend: https://github.com/raZer99/urlShorty  
+🔗 Frontend: https://github.com/raZer99/url-shorty-ui
+
+---
+
 ## 🤖 NeuroNexus – Workflow Orchestration Platform (Spring Boot Microservices)
 A production-style **workflow orchestration system** built with multiple Spring Boot microservices.  
 Automates ticket triage, notifications, JIRA creation, deployments, and workflow auditing — similar to real DevOps/SRE automation pipelines.
